@@ -189,7 +189,7 @@
   },
   "consoleLogObject": {
     "prefix": "clo",
-    "body": "console.debug('${1:object} :>> ', ${1:object});",
+    "body": "console.debug(`${1:object} :>> `, ${1:object});",
     "description": "Displays an object in the console with its name"
   },
   "consoleTrace": {
