@@ -192,6 +192,11 @@
     "body": "console.debug(`${1:object} :>> `, ${1:object});",
     "description": "Displays an object in the console with its name"
   },
+  "consoleLogObjectJson": {
+    "prefix": "clojson",
+    "body": "console.debug(`${1:object} :>> `, JSON.stringify(${1:object}, null, 2));",
+    "description": "Displays an object in the console with its name and JSON.stringify"
+  },
   "consoleTrace": {
     "prefix": "ctr",
     "body": "console.trace(${1:object});",
